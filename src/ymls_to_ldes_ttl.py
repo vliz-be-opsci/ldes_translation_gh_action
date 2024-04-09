@@ -9,8 +9,12 @@ def get_changed_files():
     base_branch = os.getenv("GITHUB_BASE_REF")
 
     # Fetch the base branch from the remote repository
-    command = f"git fetch origin {base_branch}:{base_branch}"
-    result = subprocess.run(command.split(), capture_output=True, text=True)
+    fetch_command = f"git fetch origin {base_branch}:{base_branch}"
+    subprocess.run(fetch_command.split(), capture_output=True, text=True)
+
+    # Compare differences between the source and base branches
+    diff_command = f"git diff --name-only {base_branch} {source_branch}"
+    result = subprocess.run(diff_command.split(), capture_output=True, text=True)
     if result.returncode != 0:
         print(f"Error: {result.stderr}")
         return []
