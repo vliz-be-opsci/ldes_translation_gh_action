@@ -30,16 +30,7 @@
       tree:shape [
         a sh:NodeShape ;
         sh:nodeKind sh:IRI ;
-        sh:property [
-          sh:datatype xsd:string ;
-          sh:minCount 1 ;
-          sh:path dc:isVersionOf
-        ],
-        [
-          sh:datatype xsd:dateTime ;
-          sh:minCount 1 ;
-          sh:path dc:modified
-        ],
+        sh:property 
         [
           sh:datatype xsd:string ;
           sh:minCount 1 ;
@@ -65,17 +56,14 @@
     <{{result.uri}}>
         a skos:Concept ;
         {% for label in result.labels -%}
-        <{{result.path}}> {{result.original}},
+        <{{label.path}}> "{{label.original}}",
         {% for translation in label.translations -%}
-        {% for key, value in translation.items() -%}
+        {%- for key, value in translation.items() -%}
         {% if value -%}
-        {{key}}@{{value}},
-        {% endif -%}
-        {% endfor %}
-        {% endfor %}
-        {% endfor %}
-        skos:altLabel "{{result.altlabel}}" ;
-        skos:definition "{{result.definition}}" ;
-        skos:notation "{{result.notation}}" .
-        
-    {% endfor %}
+        "{{value}}"@{{key}},
+        {% endif %}
+        {%- endfor -%}
+        {%- endfor -%};
+        {%- endfor -%}
+      .
+    {% endfor %} 

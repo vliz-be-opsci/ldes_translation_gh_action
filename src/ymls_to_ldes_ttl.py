@@ -70,13 +70,31 @@ def make_ldes_ttl_file(changed_files, previous_hash, current_hash):
             # !TODO: This is an edgecase that needs to be dealt with
     print(all_files_dict)
 
+    # pre-prune the list of files so that only tranlations are included for the ones that have translations
+    new_all_files_dict = []
+    for file in all_files_dict:
+        new_labels = []
+        for label in file["labels"]:
+            translation_found = False
+            for translation in label["translations"]:
+                for key, value in translation.items():
+                    if value != "":
+                        new_labels.append(label)
+                        translation_found = True
+            if translation_found:
+                file["labels"] = new_labels
+                new_all_files_dict.append(file)
+                break
+
+    print(new_all_files_dict)
+
     # make a ttl ldes fragment
     ldes_fragment = QUERYBUILDER.build_syntax(
         "ldes_feed.ttl",
         this_fragment_delta=current_hash,
         next_fragment_delta=previous_hash,
         retention_period=1,
-        concepts=all_files_dict,
+        concepts=new_all_files_dict,
     )
 
     # mkdir ldes folder if it doesn't exist
