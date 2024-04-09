@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/OMPW/4/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Sed_OrganoMet"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "All organometallic and orgamometalloid compound concentration parameters (including saturations for gaseous species) in all phases of sediments (including pore waters)"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

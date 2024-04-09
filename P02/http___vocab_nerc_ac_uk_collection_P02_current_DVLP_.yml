@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/DVLP/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Animal_devlopment"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Development stage parameters (such as proportion but excluding abundance or biomass) of zooplankton and zoobenthos. Benthic and planktonic animals have not been seggregated because there is a degree of overlap (eg shrimps)."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

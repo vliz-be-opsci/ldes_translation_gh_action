@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/RMIN/3/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "InorgChemRockSed"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters specifying the proportions of inorganic components (major/minor/trace elements, trace metals etc.) in sediment or rock samples.  Major elements includes the H2O+ and H2O- parameters reported by convention in oxide weight per cent geochemical major element analyses."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

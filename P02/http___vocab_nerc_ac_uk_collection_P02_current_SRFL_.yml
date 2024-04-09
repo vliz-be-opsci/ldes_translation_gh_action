@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/SRFL/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Reflection"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters relating to the elucidation of geological structure by quantifying the proportion of waves from a high energy source reflected by sub-surface layers."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

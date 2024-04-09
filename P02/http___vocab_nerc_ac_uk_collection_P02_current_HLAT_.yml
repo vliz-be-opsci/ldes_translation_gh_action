@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/HLAT/5/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Amos_Halogen"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Concentrations of halogens as elements or their inorganic compounds in all phases of the atmosphere."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

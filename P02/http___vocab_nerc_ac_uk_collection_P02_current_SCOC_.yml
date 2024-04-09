@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/SCOC/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Sed_Orgcontam"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Concentration parameters for carbon compounds regarded as environmentally harmful in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff' that are not included in other specific categories"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

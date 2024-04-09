@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/EXUV/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_Biodetritus"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters quantifying and categorising biological detritus (eg exuvia and faecal pellets) in the water column that have been derived from the water column"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

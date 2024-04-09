@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/CPRP/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Precip+Evap"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters relating to all kinds of precipitation (rain, snow, etc.) and water loss from the surface of the Earth"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

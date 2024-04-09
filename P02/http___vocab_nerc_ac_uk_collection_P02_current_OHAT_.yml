@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/OHAT/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Atm_UnclassHydrocarb"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "'Other' (not alkanes, alkenes, alkynes or PAHs) hydrocarbon concentration parameters (including saturation of gaseous species) in all phases of the atmosphere."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

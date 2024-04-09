@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/LGCR/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Lagran_Currents_WC"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters expressing the mean nett transport rates within the water column like Lagrangian currents. Note this is an unintentional duplicate of VDFC."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

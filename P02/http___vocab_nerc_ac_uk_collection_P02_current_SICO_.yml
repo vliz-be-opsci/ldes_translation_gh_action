@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/SICO/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "OthFlux_WCBed"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Fluxes of species other than metals and nutrients between the bed (ie the sediment) and the water column sometimes termed benthic fluxes or sediment demand"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

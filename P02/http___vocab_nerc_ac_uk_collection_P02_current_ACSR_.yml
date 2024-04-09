@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/ACSR/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "ActSeisRefrac"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters quantifying the magnitude of earth movements resulting from artificial sources (such as explosions) far away from the measurement site."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

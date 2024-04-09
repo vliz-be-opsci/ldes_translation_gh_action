@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/RTMP/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "RockTemp"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters that describe the distribution of the degree of hotness within geologic units of lithified sedimentary, igneous of metamorphic rock."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/RWCH/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Precip_Chem"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Concentration of any chemical species in water collected from the atmosphere.  Includes rain, snow, hail and fog but excludes cloud samples or snow accumulations on the ground."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

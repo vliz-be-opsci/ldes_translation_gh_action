@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/DPEV/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Dep_env"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters characterising the environment in which sediments were deposited either by observation or interpretation of sedimentary rocks and unlithified sediments."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

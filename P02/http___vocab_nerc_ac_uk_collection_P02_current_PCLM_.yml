@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/PCLM/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "PalaeoInd"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameterisations that describe climatic conditions in the past.  Includes climate indices, climate indicators and indirect measurements of climate-related phenomena such as sea level and water table depth."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

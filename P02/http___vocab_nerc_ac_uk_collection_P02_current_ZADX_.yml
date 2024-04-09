@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/ZADX/5/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "ZoobenthDryBiomass"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Any quantification of the dry mass of zoobenthos (animals living on, in or near the bed of any water body). Includes animals normally considered planktonic if collected in sediment and data expressed ash-free and in terms of carbon, nitrogen etc.."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

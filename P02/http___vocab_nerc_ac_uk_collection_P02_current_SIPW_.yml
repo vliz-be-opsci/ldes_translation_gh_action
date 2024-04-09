@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/SIPW/3/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Iso_SedPoreWater"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Stable isotope parameters (concentrations, ratios and enrichments) in either the solute or solvent phase of sediment pore waters."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

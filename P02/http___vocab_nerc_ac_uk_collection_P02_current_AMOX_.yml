@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/AMOX/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_Nitrif_Denitr"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters quantifying rates associated with nitrification (oxidation of reduced nitrogen such as ammonium) and denitrification (conversion of nitrate into gaseous compounds such as nitric oxide, nitrous oxide and molecular nitrogen) processes in the water column of any body of fresh or salt water."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

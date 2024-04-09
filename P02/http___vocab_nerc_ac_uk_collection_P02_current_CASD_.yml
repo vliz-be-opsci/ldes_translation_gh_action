@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/CASD/5/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "CarbPhenolAlkanolEtherAldKetSed"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Concentrations of carbohydrates, phenols, alkanols (alcohols), ethers,aldehydes and simple (non-alkenone) ketones in unlithified sediment (material collected by a corer including fluff)."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

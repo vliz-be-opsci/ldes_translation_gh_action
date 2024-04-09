@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/WCOC/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_Orgcontam"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Concentration parameters for carbon compounds regarded as environmentally harmful in solution or suspension (i.e.includes measurements in both the dissolved and particulate phases) in any body of salt or fresh water that are not included in other specific categories"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/MZBC/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_NontaxMicrozooCarbBiomass"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Basically, any microzooplankton carbon biomass measurement that isn't included in parameter group MATC.  May include data integrations such as 'total microzooplankton'."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/CAKN/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Akenone+alkenoate_WC"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Concentrations of alkenones (unsaturated aliphatic ketones) and alkenoates (carboxylic acid esters) in all phases of the water column."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

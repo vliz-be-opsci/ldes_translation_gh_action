@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/TDPX/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_DissPhosphorus"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Concentration of total (organic plus inorganic) or organic dissolved phosphorus per unit volume of the water column. Grouped together as organic phosphorus frequently determined as total phosphorus."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

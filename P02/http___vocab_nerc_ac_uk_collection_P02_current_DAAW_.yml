@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/DAAW/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Water_coll_part_AA"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters quantifying the amount of organic compounds containing both a carboxyl group and an amino group in solids suspended in a body of water."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

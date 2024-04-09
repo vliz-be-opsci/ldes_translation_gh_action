@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/SSTR/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Sed_struct"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters characterising structure in sedimentary rocks and unlithified sediment such as bedding, lamination and bioturbation."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

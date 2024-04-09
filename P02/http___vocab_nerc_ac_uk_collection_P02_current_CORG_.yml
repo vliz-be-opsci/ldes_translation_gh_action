@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/CORG/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_POC"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Concentrations of total and organic carbon in the particulate phase of the water column as extracted by a filtration technique. This is the particle-bound concentration per unit volume of the water column and is both a function of the SPM concentration in the water column and the concentration of carbon per unit weight of SPM.  Total and organic carbon are classed together to circumvent confusion caused by total carbon data sets labelled 'POC' on the assumption that the inorganic carbon fraction is negligible"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

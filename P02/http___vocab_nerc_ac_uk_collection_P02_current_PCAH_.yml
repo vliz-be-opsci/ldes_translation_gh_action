@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/PCAH/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "SPM_PAH"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "PAH concentrations in suspended particulate material, regarded as anything sampled by a water bottle, SAP, sediment trap etc.  This group is for SPM composition measurements (concentration per unit weight) and NOT concentrations per unit volume of the water column in the particulate phase."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

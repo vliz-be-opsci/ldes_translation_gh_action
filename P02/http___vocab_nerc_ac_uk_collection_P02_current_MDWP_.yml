@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/MDWP/4/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Metoid_WC_Part"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Concentration parameters for trace metalloid elements and inorganic selenium species in the particulate phase of any body of fresh or salt water collected by fitration, centrifugation or sediment trapping. Trace metalloids are considered as B, Ge, As, Sb, Te and Po (but not Si which is classed separately because of its major role in environmental chemistry)."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

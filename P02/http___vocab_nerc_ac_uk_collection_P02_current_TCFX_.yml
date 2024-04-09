@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/TCFX/3/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_SedFluxOrgMatter"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Fluxes of particulate total, organic and inorganic carbon (including as CaCO3) and nitrogen (often measured as 'total' but assumed to be 'organic'). Organic matter is defined as matter lost on ignition."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

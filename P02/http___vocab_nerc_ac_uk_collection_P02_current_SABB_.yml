@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/SABB/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Sfish_AbundBiom"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters that quantify the numbers or amount of living material of shellfish (molluscs - including cephalopods - and crustaceans of interest to fisheries research and commercial fisheries) in any body of fresh or salt water."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

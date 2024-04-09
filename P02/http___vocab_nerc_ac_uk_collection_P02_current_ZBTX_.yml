@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "ZoobenthTaxAbund"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Any enumeration (e.g. count, number per square metre) of animals living on or near the seabed designated by taxonomic names (e.g. species, genus)."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

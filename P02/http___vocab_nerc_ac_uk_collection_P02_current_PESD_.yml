@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/PESD/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Pesticide_Sediment"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Concentration parameters for substances synthesised by man to kill other life forms in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff'."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
