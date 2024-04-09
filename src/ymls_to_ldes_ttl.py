@@ -8,8 +8,10 @@ def get_changed_files():
     source_branch = os.getenv("GITHUB_HEAD_REF")
     base_branch = os.getenv("GITHUB_BASE_REF")
 
-    # Fetch the base branch from the remote repository
-    fetch_command = f"git fetch origin {base_branch}:{base_branch}"
+    # Fetch the source and base branches from the remote repository
+    fetch_command = (
+        f"git fetch origin {source_branch}:{source_branch} {base_branch}:{base_branch}"
+    )
     subprocess.run(fetch_command.split(), capture_output=True, text=True)
 
     # Compare differences between the source and base branches
