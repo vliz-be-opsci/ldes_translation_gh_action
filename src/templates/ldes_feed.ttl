@@ -5,6 +5,7 @@
     | @param next_fragment_delta: The hash of the next fragment (previous hash)
     | @param retention_period: The retention period of the fragment
     | @param concepts: All the concepts in the fragment
+    | @param shacl_constraints: The SHACL constraints for the fragment
     #}
     @prefix tree: <https://w3id.org/tree#> .
     @prefix ldes: <https://w3id.org/ldes#> .
@@ -27,27 +28,7 @@
     
     <http://open-science.vliz.be/ldes_translation_gh_action/ldes>
       a ldes:EventStream ;
-      tree:shape [
-        a sh:NodeShape ;
-        sh:nodeKind sh:IRI ;
-        sh:property 
-        [
-          sh:datatype xsd:string ;
-          sh:minCount 1 ;
-          sh:path skos:altLabel
-        ],
-        [
-          sh:datatype xsd:string ;
-          sh:minCount 1 ;
-          sh:path skos:definition
-        ],
-        [
-          sh:datatype xsd:string ;
-          sh:minCount 1 ;
-          sh:path skos:notation
-        ];
-        sh:targetClass skos:Concept
-      ] ;
+      tree:shape <http://open-science.vliz.be/ldes_translation_gh_action/ldes/ldes_constraints.ttl> ;
       tree:view <http://open-science.vliz.be/ldes_translation_gh_action/ldes/{{this_fragment_delta}}> ;
       .
     

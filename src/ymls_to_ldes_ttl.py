@@ -8,6 +8,27 @@ import pathlib
 QUERYBUILDER = J2RDFSyntaxBuilder(
     templates_folder=pathlib.Path(__file__).parent / "templates"
 )
+CONFIG_LOCATION = pathlib.Path(__file__).parent / "../config.yml"
+
+loaded_config = yaml.safe_load(open(CONFIG_LOCATION, "r"))
+
+# use the config file to get the unique concepts
+all_concepts = []
+for source in loaded_config["sources"]:
+    for item in source["items"]:
+        all_concepts.append(item["path"])
+
+all_concepts = set(all_concepts)
+print(all_concepts)
+
+ldes_fragment = QUERYBUILDER.build_syntax(
+    "ldes_constraints.ttl",
+    shacl_properties=all_concepts,
+)
+
+fname = "ldes_constraints.ttl"
+with open(os.path.join(os.getcwd(), "ldes", fname), "w") as f:
+    f.write(ldes_fragment)
 
 
 def get_changed_files():
