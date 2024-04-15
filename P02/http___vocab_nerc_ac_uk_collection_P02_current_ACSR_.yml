@@ -13,7 +13,7 @@ labels:
     path: "http://www.w3.org/2004/02/skos/core#definition"
     original: "Parameters quantifying the magnitude of earth movements resulting from artificial sources (such as explosions) far away from the measurement site."
     translations:
-      - fr: ""
-      - es: ""
+      - fr: "paramètres quantifiant l'ampleur des mouvements terrestres résultant de sources artificielles (comme des explosions) loin du site de mesure."
+      - es: "parámetros que cuantifican la magnitud de los movimientos terrestres resultantes de fuentes artificiales (como explosiones) lejos del lugar de medición."
       - de: ""
       - it: ""

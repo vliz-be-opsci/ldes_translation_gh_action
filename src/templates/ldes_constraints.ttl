@@ -1,0 +1,25 @@
+{#
+    This ttl file will contain the SHACL shape for the ldes:shape
+    | @param: shacl_properties
+#}
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+<http://open-science.vliz.be/ldes_translation_gh_action/ldes_constraints.ttl>
+tree:shape [
+        a sh:NodeShape ;
+        sh:nodeKind sh:IRI ;
+        sh:property 
+        {%- for property in shacl_properties -%}
+        [
+          sh:datatype xsd:string ;
+          sh:path <{{ property }}>
+        ]{%- if not loop.last -%},
+        {% else %}
+        ;
+        {%- endif -%}
+        {%- endfor -%}
+        sh:targetClass skos:Concept
+] .

@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
-        run: npm install
+        run: cd src && npm install
       - name: install poetry
         run: |
           curl -sSL https://install.python-poetry.org | python3 -
