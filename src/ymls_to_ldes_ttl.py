@@ -51,10 +51,10 @@ def get_changed_files():
         text=True,
     ).stdout.strip()
     changed_files = changed_files.split("\n")
-    return changed_files
+    return changed_files, hash, current_hash
 
 
-changed_files = get_changed_files()
+changed_files, last_hash, current_hash = get_changed_files()
 print(changed_files)
 print(type(changed_files))
 
@@ -97,11 +97,14 @@ def make_ldes_ttl_file(changed_files, previous_hash, current_hash):
         new_labels = []
         for label in file["labels"]:
             translation_found = False
+            non_empty_translations = []
             for translation in label["translations"]:
                 for key, value in translation.items():
                     if value != "":
-                        new_labels.append(label)
+                        non_empty_translations.append(translation)
                         translation_found = True
+            label["translations"] = non_empty_translations
+            new_labels.append(label)
             if translation_found:
                 file["labels"] = new_labels
                 new_all_files_dict.append(file)
@@ -128,5 +131,9 @@ def make_ldes_ttl_file(changed_files, previous_hash, current_hash):
     with open(os.path.join(os.getcwd(), "ldes", fname), "w") as f:
         f.write(ldes_fragment)
 
+    # write the current hash to the last hash file
+    with open(os.path.join(os.getcwd(), ".github/last_ldes_hash"), "w") as f:
+        f.write(current_hash)
 
-make_ldes_ttl_file(mock_data, "16768yu", "5674548HUBI")
+
+make_ldes_ttl_file(mock_data, last_hash, current_hash)
