@@ -2,7 +2,7 @@ name: Pull Request Update
 
 on:
   pull_request:
-    types: [opened, edited, reopened, synchronize]
+    types: [closed]
 
 jobs:
   build:
@@ -19,3 +19,8 @@ jobs:
         run: cd src && poetry install
       - name: run check for changed files
         run: python src/ymls_to_ldes_ttl.py
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./ldes

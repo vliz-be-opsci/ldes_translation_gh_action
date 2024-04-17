@@ -15,10 +15,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 
-<http://open-science.vliz.be/ldes_translation_gh_action/ldes/{{this_fragment_delta}}>
+<http://open-science.vliz.be/ldes_translation_gh_action/{{this_fragment_delta}}>
     a tree:Node ;
     {% if next_fragment_delta %}
-    tree:relation [ tree:node <http://open-science.vliz.be/ldes_translation_gh_action/ldes/{{next_fragment_delta}}> ] ;
+    tree:relation [ tree:node <http://open-science.vliz.be/ldes_translation_gh_action/{{next_fragment_delta}}> ] ;
     {% endif %}
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
@@ -26,14 +26,14 @@
         ldes:versionKey ( dc:isVersionOf )
     ] .
 
-<http://open-science.vliz.be/ldes_translation_gh_action/ldes>
+<http://open-science.vliz.be/ldes_translation_gh_action>
   a ldes:EventStream ;
-  tree:shape <http://open-science.vliz.be/ldes_translation_gh_action/ldes/ldes_constraints.ttl> ;
-  tree:view <http://open-science.vliz.be/ldes_translation_gh_action/ldes/{{this_fragment_delta}}> ;
+  tree:shape <http://open-science.vliz.be/ldes_translation_gh_action/ldes_constraints.ttl> ;
+  tree:view <http://open-science.vliz.be/ldes_translation_gh_action/{{this_fragment_delta}}> ;
   .
 
 {% for result in concepts -%}
-<http://open-science.vliz.be/ldes_translation_gh_action/ldes> tree:member <{{result.uri}}> .
+<http://open-science.vliz.be/ldes_translation_gh_action> tree:member <{{result.uri}}> .
 <{{result.uri}}>
     a skos:Concept ;
     {% for label in result.labels -%}
