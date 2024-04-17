@@ -1,0 +1,35 @@
+
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+<http://open-science.vliz.be/ldes_translation_gh_action/7aee84767ebc7c234035351ef94888c1b6a75204>
+    a tree:Node ;
+    
+    tree:relation [ tree:node <http://open-science.vliz.be/ldes_translation_gh_action/121d2c2> ] ;
+    
+    ldes:retentionPolicy [
+        a ldes:LatestVersionSubset ;
+        ldes:amount 1 ;
+        ldes:versionKey ( dc:isVersionOf )
+    ] .
+
+<http://open-science.vliz.be/ldes_translation_gh_action>
+  a ldes:EventStream ;
+  tree:shape <http://open-science.vliz.be/ldes_translation_gh_action/ldes_constraints.ttl> ;
+  tree:view <http://open-science.vliz.be/ldes_translation_gh_action/7aee84767ebc7c234035351ef94888c1b6a75204> ;
+  .
+
+<http://open-science.vliz.be/ldes_translation_gh_action> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ACSR/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ACSR/2/>
+    a skos:Concept ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "ActSeisRefrac"
+    ;<http://www.w3.org/2004/02/skos/core#definition> "Parameters quantifying the magnitude of earth movements resulting from artificial sources (such as explosions) far away from the measurement site."
+    ,"paramètres quantifiant l'ampleur des mouvements terrestres résultant de sources artificielles (comme des explosions) loin du site de mesure."@fr
+    ,"parámetros que cuantifican la magnitud de los movimientos terrestres resultantes de fuentes artificiales (como explosiones) lejos del lugar de medición."@es
+    ;.
+ 
