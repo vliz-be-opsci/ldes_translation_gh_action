@@ -136,4 +136,4 @@ def make_ldes_ttl_file(changed_files, previous_hash, current_hash):
         f.write(current_hash)
 
 
-make_ldes_ttl_file(changed_files, last_hash, current_hash)
+make_ldes_ttl_file(mock_data, last_hash, current_hash)

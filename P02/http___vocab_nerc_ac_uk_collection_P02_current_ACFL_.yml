@@ -5,7 +5,7 @@ labels:
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     original: "QC_Flag"
     translations:
-      - fr: "QC_Flague"
+      - fr: ""
       - es: ""
       - de: ""
       - it: ""
