@@ -6,21 +6,25 @@ on:
 
 jobs:
   build:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: make .env file
         run: echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}" > .env
       - name: Install dependencies
-        run: cd src && npm install
+        run: npm install
+        working-directory: src
       - name: install poetry
         run: |
           curl -sSL https://install.python-poetry.org | python3 -
-          export PATH=$HOME/.local/bin:$PATH
+          echo "PATH=$HOME/.local/bin:$PATH" >> $GITHUB_ENV
       - name: Install dependencies
-        run: cd src && poetry install --no-root
+        run: poetry install --no-root
+        working-directory: src
       - name: run check for changed files
-        run: poetry run python src/ymls_to_ldes_ttl.py
+        run: poetry run python ymls_to_ldes_ttl.py
+        working-directory: src
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
