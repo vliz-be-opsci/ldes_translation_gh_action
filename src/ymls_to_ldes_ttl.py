@@ -63,8 +63,9 @@ def get_changed_files():
 
 
 changed_files, last_hash, current_hash = get_changed_files()
-print(changed_files)
-print(type(changed_files))
+print(f"Changed files: {changed_files}")
+print(f"Last hash: {last_hash}")
+print(f"Current hash: {current_hash}")
 
 
 mock_data = [
@@ -143,4 +144,4 @@ def make_ldes_ttl_file(changed_files, previous_hash, current_hash):
         f.write(current_hash)
 
 
-make_ldes_ttl_file(mock_data, last_hash, current_hash)
+make_ldes_ttl_file(changed_files, last_hash, current_hash)
