@@ -13,7 +13,7 @@ labels:
     path: "http://www.w3.org/2004/02/skos/core#definition"
     original: "Fluxes of chemical species from the atmosphere to sea or land surface including precipitation and aerosol deposition but excluding fluxes due to exchange of gases"
     translations:
-      - fr: "Les Flux de l'espèce chimique de l'atmosphère à la mer ou à la surface terrestre, y compris la précipitation et la déposition d'aérosols, mais à l'exclusion des flux dus à l'échange de gaz"
+      - fr: ""
       - es: ""
       - de: ""
       - it: ""
