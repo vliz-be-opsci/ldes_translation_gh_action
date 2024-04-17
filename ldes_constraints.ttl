@@ -10,15 +10,15 @@ tree:shape [
         sh:nodeKind sh:IRI ;
         sh:property[
           sh:datatype xsd:string ;
+          sh:path <http://www.w3.org/2004/02/skos/core#altLabel>
+        ],
+        [
+          sh:datatype xsd:string ;
           sh:path <http://www.w3.org/2004/02/skos/core#prefLabel>
         ],
         [
           sh:datatype xsd:string ;
           sh:path <http://www.w3.org/2004/02/skos/core#definition>
-        ],
-        [
-          sh:datatype xsd:string ;
-          sh:path <http://www.w3.org/2004/02/skos/core#altLabel>
         ]
         ;sh:targetClass skos:Concept
 ] .
