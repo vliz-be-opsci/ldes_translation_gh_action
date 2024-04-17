@@ -13,7 +13,7 @@ labels:
     path: "http://www.w3.org/2004/02/skos/core#definition"
     original: "A change of temperature on the Kelvin temperature scale in one SI unit of length."
     translations:
-      - fr: ""
+      - fr: "A changement de température sur l'échelle de température Kelvin dans une unité SI de longueur."
       - es: ""
       - de: ""
       - it: ""
