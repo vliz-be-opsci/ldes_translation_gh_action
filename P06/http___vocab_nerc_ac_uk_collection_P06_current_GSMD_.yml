@@ -21,7 +21,7 @@ labels:
     path: "http://www.w3.org/2004/02/skos/core#prefLabel"
     original: "Grams per square metre per day"
     translations:
-      - fr: ""
+      - fr: "Grammes par mètre carré par jour"
       - es: ""
       - de: ""
       - it: ""
