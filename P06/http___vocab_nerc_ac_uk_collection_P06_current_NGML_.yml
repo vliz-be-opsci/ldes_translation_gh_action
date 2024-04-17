@@ -21,7 +21,7 @@ labels:
     path: "http://www.w3.org/2004/02/skos/core#prefLabel"
     original: "Nanograms per millilitre"
     translations:
-      - fr: ""
+      - fr: "Nanogrammes par millilitre"
       - es: ""
       - de: ""
       - it: ""
