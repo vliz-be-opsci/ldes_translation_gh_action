@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: cd src && poetry install --no-root
       - name: run check for changed files
-        run: python src/ymls_to_ldes_ttl.py
+        run: poetry run python src/ymls_to_ldes_ttl.py
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
