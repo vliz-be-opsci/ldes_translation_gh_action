@@ -13,7 +13,7 @@ labels:
     path: "http://www.w3.org/2004/02/skos/core#definition"
     original: "Parameters quantifying rates associated with nitrification (oxidation of reduced nitrogen such as ammonium) and denitrification (conversion of nitrate into gaseous compounds such as nitric oxide, nitrous oxide and molecular nitrogen) processes in the water column of any body of fresh or salt water."
     translations:
-      - fr: ""
+      - fr: "Paramètres quantifiant les taux associés aux processus de nitrification (oxydation de l'azote réduit tel que l'ammonium) et de dénitrification (conversion du nitrate en composés gazeux tels que l'oxyde nitrique, l'oxyde nitreux et l'azote moléculaire) dans la colonne d'eau de tout plan d'eau douce ou salée."
       - es: ""
       - de: ""
       - it: ""
