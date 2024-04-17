@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: make .env file
+        run: echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}" > .env
       - name: Install dependencies
         run: cd src && npm install
       - name: install poetry
