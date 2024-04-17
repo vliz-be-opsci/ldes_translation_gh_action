@@ -13,7 +13,7 @@ labels:
     path: "http://www.w3.org/2004/02/skos/core#definition"
     original: "Count of an entity or phenomenon occurrence in one part in 10^6 of the SI unit of volume (cubic metre)."
     translations:
-      - fr: ""
+      - fr: "Compte d'une occurrence d'entité ou de phénomène dans une partie de 10^6 de l'unité SI de volume (mètre cube)"
       - es: ""
       - de: ""
       - it: ""
@@ -21,7 +21,7 @@ labels:
     path: "http://www.w3.org/2004/02/skos/core#prefLabel"
     original: "Number per 100 millilitres"
     translations:
-      - fr: ""
+      - fr: "Nombre par 100 millilitres"
       - es: ""
       - de: ""
       - it: ""
