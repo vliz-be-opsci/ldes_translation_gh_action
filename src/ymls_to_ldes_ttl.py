@@ -16,6 +16,10 @@ print(BASE_DIR)
 
 loaded_config = yaml.safe_load(open(CONFIG_LOCATION, "r"))
 
+# mkdir ldes folder if it doesn't exist
+if not os.path.isdir(os.path.join(BASE_DIR, "ldes")):
+    os.mkdir(os.path.join(BASE_DIR, "ldes"))
+
 # use the config file to get the unique concepts
 all_concepts = []
 for source in loaded_config["sources"]:
@@ -127,10 +131,6 @@ def make_ldes_ttl_file(changed_files, previous_hash, current_hash):
         retention_period=1,
         concepts=new_all_files_dict,
     )
-
-    # mkdir ldes folder if it doesn't exist
-    if not os.path.isdir(os.path.join(BASE_DIR, "ldes")):
-        os.mkdir(os.path.join(BASE_DIR, "ldes"))
 
     # write the ldes fragment to a file
     # fragment name is the current hash
