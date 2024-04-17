@@ -18,7 +18,7 @@ jobs:
           curl -sSL https://install.python-poetry.org | python3 -
           export PATH=$HOME/.local/bin:$PATH
       - name: Install dependencies
-        run: cd src && poetry install
+        run: cd src && poetry install --no-root
       - name: run check for changed files
         run: python src/ymls_to_ldes_ttl.py
       - name: Deploy to GitHub Pages
