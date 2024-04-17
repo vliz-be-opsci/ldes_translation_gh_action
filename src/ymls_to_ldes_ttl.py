@@ -27,14 +27,14 @@ ldes_fragment = QUERYBUILDER.build_syntax(
 )
 
 fname = "ldes_constraints.ttl"
-with open(os.path.join(os.getcwd(), "ldes", fname), "w") as f:
+with open(os.path.join(os.getcwd(), "../ldes", fname), "w") as f:
     f.write(ldes_fragment)
 
 
 def get_changed_files():
 
     # open .github/hash file and read the hash
-    with open(os.path.join(os.getcwd(), ".github/last_ldes_hash"), "r") as f:
+    with open(os.path.join(os.getcwd(), "../.github/last_ldes_hash"), "r") as f:
         hash = f.read()
     print(hash)
 
@@ -83,7 +83,7 @@ def make_ldes_ttl_file(changed_files, previous_hash, current_hash):
     all_files_dict = []
     for file in yml_files:
         try:
-            parent_dir = os.path.join(os.getcwd(), os.path.abspath(file))
+            parent_dir = os.path.join(os.getcwd(), "../", os.path.abspath(file))
             loaded_file = yaml.safe_load(open(parent_dir, "r"))
             all_files_dict.append(loaded_file)
         except FileNotFoundError:
@@ -122,17 +122,17 @@ def make_ldes_ttl_file(changed_files, previous_hash, current_hash):
     )
 
     # mkdir ldes folder if it doesn't exist
-    if not os.path.isdir(os.path.join(os.getcwd(), "ldes")):
-        os.mkdir(os.path.join(os.getcwd(), "ldes"))
+    if not os.path.isdir(os.path.join(os.getcwd(), "../ldes")):
+        os.mkdir(os.path.join(os.getcwd(), "../ldes"))
 
     # write the ldes fragment to a file
     # fragment name is the current hash
     fname = f"{current_hash}.ttl"
-    with open(os.path.join(os.getcwd(), "ldes", fname), "w") as f:
+    with open(os.path.join(os.getcwd(), "../ldes", fname), "w") as f:
         f.write(ldes_fragment)
 
     # write the current hash to the last hash file
-    with open(os.path.join(os.getcwd(), ".github/last_ldes_hash"), "w") as f:
+    with open(os.path.join(os.getcwd(), "../.github/last_ldes_hash"), "w") as f:
         f.write(current_hash)
 
 
