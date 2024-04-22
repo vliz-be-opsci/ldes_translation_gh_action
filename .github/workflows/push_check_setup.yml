@@ -22,9 +22,9 @@ jobs:
             exit 1
           fi
           echo "Config file found and LDES folder does not exist. Continuing."
-          - name: Install dependencies
-          run: npm install
-          working-directory: .github/ldes_translation_workflow
+      - name: Install dependencies
+        run: npm install
+        working-directory: .github/ldes_translation_workflow
       - name: install poetry
         run: |
           curl -sSL https://install.python-poetry.org | python3 -
