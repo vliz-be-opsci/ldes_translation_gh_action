@@ -37,7 +37,7 @@ jobs:
         working-directory: .github/ldes_translation_workflow
       - name: push changes
         run: |
-          git config --global user.email "
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub Actions"
           git add .
           git commit -m "setup script run"
