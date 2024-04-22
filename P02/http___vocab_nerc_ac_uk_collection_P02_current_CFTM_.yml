@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/CFTM/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "ContamFlux"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters quanitifying the transfer of substances considered harmful from land to sea, including river discharge rates of contaminant species (but not freshwater discharge rates)."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

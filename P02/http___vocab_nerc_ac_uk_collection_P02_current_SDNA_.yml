@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/SDNA/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Biolpoly_sed"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters quantifying the amount of naturally-produced organic (molecules containing carbon) compounds that are built from multiple instances of structural units (monomers) that are covalently-bonded to produce larger structures in any sediment (material collected by a corer including fluff). Includes polynucleotides (RNA and DNA), polypeptides and polysaccharides (e.g. cellulose)."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/CSLR/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Sol_Rad"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters quantifying the irradiance of the sun impinging on the Earth's surface in the visible and infra-red waveband, generally accepted as wavelengths between 300 and 3000 nm"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

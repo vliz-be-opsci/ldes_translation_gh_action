@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/R410/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Ocean_clr"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters associated with the measurement of ocean colour, including visible waveband satellite spectral radiometer measurements, their calibration measurements (spectral water-leaving radiance and reflectance) and chart colour estimates."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

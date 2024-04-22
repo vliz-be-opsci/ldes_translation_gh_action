@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/XMGS/3/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "GeoMagElecAcc"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Any parameters quantifying the magnetic (e.g. magnetic susceptibility), electrical (e.g. resistivity) or acoustic (e.g. P-wave propogation speed) of sediment or rock cores and samples"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

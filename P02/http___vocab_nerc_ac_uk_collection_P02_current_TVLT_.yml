@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/TVLT/4/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Raw_SPM_optics"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Raw parameters (voltages and counts) from in-situ suspended particulate material sensors including transmissometers, nephelometers,in-situ particle sizers and ABS (including ADCP echo intensity)."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

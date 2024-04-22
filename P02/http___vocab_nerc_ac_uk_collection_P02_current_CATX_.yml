@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/CATX/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "PhytoTaxaBiomWater"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Any parameterisation of biomass (e.g. wet weight, dry weight, carbon, nitrogen etc.) of free-floating autotrophic biological entities identified by their taxonomic names (e.g. family, genus, species) in any body of fresh or salt water."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

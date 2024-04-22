@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/CCPW/3/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "SedPoreWat_CarbChem"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Carbonate system parameters (DIC/TCO2, pH, alkalinity, pCO2) in sediment pore waters"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

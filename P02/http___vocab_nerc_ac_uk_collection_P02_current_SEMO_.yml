@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/SEMO/4/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Seal_Mort"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters describing the causes and rate of mortality of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae)."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

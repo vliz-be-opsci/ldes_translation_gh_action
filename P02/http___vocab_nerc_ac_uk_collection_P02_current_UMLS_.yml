@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/UMLS/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Sed_Microlitter"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters describing the abundance and nature of microscopic particles of man-made materials and in particular microplastics present in the sediment."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

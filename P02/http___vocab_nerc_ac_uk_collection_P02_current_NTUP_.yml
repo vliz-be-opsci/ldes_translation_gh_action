@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/NTUP/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "New_prod"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters quantifying the uptake rate of nitrate or gaseous nitrogen by flora and fauna living in any body of salt or fresh water"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

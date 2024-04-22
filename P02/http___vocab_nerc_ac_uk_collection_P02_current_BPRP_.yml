@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/BPRP/4/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "SDN_BioFormatCodes"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters that quantify any attribute of a biological entity specified elsewhere in the data model and therefore do not map to the existing biologically classified P02 categories. This concept is used as a temporary grouping of parameter codes created for the SeaDataNet biological standard format."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

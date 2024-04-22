@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/CING/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_PartInorgC"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Concentrations of inorganic carbon in the particulate phase of the water column as extracted by a fitration technique.  This is the particle-bound concentration per unit volume of the water column. Consequently, it is both a function of the SPM concentration in the water column and the concentration of inorganic carbon per unit weight of the SPM."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

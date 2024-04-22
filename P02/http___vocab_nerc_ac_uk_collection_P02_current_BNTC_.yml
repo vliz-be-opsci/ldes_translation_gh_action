@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/BNTC/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_NontaxBacteriaCarbBiomass"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Basically any bacteria carbon biomass parameters that aren't included in parameter group BATC because they cannot be mapped to specific taxa in a standard taxonomy registry such as WoRMS or ITIS.  Bacteria are defined as Kingdom Monera, which includes cyanobacteria."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

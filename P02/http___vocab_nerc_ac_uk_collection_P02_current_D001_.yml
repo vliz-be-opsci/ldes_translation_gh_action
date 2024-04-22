@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/D001/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Sed_MicroPhytoBiomass"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Any quantification of the mass (e.g. carbon, nitrogen, weight) of microalgae present on hard substrate or soft sediment at the bottom of any body of fresh or salt water."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

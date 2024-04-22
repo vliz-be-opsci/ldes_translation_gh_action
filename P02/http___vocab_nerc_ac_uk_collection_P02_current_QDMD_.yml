@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/QDMD/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Amount_dumped"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters quantifying the amount of liquids (e.g. ship's ballast) or solids (e.g. dredge spoil) deposited into the water column as a result of man's activities"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

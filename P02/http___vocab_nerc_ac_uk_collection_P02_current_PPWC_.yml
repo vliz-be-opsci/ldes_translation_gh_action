@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/PPWC/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_PCB"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "PCB concentrations in all phases of the water column. This group excludes SPM composition measurements (concentration per unit weight)."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

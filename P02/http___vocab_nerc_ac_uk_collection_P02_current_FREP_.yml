@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/FREP/3/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Fish_Rep"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters describing the extent, intensity, timing and method of reproduction in fish (Osteichthyes, Agnatha and Chrondrichthyes) including fecundity, reproductive rates, spawning, and nursery grounds."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

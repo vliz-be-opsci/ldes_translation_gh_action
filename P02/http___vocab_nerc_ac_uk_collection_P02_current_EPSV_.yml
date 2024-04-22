@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/EPSV/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Raw_turbulence"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Raw direct output parameters from microstructure sensors, probes or profilers that are used to determine the distribution of water body properties on a millimetric scale."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

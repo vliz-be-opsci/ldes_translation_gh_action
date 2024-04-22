@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/HBEX/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Hab_Extnt"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters specifying the vertical and horizontal spatial extent of the ecological character of a place where an organism is found"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

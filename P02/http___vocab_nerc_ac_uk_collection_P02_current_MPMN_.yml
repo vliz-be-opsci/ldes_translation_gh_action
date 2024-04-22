@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/MPMN/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Depth"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters expressing depth (possibly as pressure) of an instrument on a suspended underwater mooring.  These are primarily collected to monitor mooring performance by quantifying knock-down and should not be regarded as instrument z co-ordinates (accurate calibration is rare) or as sea level measurements."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

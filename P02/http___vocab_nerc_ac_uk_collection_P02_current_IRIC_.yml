@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/IRIC/4/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Iso_IceSnow"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Stable isotope parameters (concentrations, ratios and enrichments) in frozen precipitation (snow, hail, ice and slush), its accumulations (e.g. glaciers), sea ice and frozen fresh water."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/BRDD/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Bird_taxa_abund"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Bird (Class Aves) abundance per unit area (of land or sea) presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.These may be at any taxonomic level from sub-species upwards."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

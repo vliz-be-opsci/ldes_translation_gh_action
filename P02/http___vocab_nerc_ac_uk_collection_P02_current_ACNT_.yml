@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/ACNT/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Macroalgae+Seagrass_taxa_count"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Macroalgae (Rhodophycota, Chromphycota, Chlorophycota) and seagrass (Charophyta, Anthophyta) count parameters presented at the level of taxa at any level from sub-species upwards. Count includes presence/absence indicators."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

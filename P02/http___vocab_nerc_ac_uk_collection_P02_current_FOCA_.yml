@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/FOCA/7/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "Seal_Abund"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters related to the distribution of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae)at a particular time and location, including presence/absence indicators."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

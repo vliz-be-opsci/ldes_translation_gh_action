@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/PCHW/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_PAH"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "PAH concentrations in all phases of the water column. This group includes concentrations per unit volume of the water column in the particulate phase, but not concentrations per unit wieght of SPM."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

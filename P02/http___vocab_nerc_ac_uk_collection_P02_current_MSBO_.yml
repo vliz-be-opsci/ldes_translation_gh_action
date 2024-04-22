@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/MSBO/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_ZooAFDWBiomass"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Zooplankton (mesozooplankton and larger, exclusing fish, mammals, reptiles and insects) biomass determined by gravimetric measurement of loss on ignition"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/NTIC/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "NO3_Ice"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Nitrate concentration parameters in ice. Includes nitrate+nitrite, which is often loosely referred to as nitrate."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

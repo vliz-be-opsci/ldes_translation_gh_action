@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/PASR/2/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "PassSeisRefrac"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters quantifying the magnitude of naturally occurring low frequency earth movements such as used for earthquake seismology and natural noise studies."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""

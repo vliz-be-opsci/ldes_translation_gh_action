@@ -1,0 +1,19 @@
+
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/SACT/1/"
+labels:
+  - name: "altLabel"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    original: "WC_surfactant"
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
+  - name: "definition"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    original: "Parameters quantifying the amount of compounds that lower the surface tension of a liquid, the interfacial tension between two liquids, or that between a liquid and a solid in any body of salt or fresh water. The term surfactants includes detergents, wetting agents, emulsifiers, foaming agents and dispersants."
+    translations:
+      - fr: ""
+      - es: ""
+      - de: ""
+      - it: ""
