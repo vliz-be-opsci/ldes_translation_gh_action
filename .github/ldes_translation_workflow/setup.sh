@@ -4,6 +4,8 @@
 
 if [ ! -d "../../ldes" ]; then
     mkdir "../../ldes"
+    # put a file into the folder so that it is not empty
+    touch "../../ldes/.gitkeep"
     # run the ldes_download.sh script
     bash ldes_download.sh
     # run the ttl to yml python script
