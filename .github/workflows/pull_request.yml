@@ -12,17 +12,17 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install dependencies
         run: npm install
-        working-directory: src
+        working-directory: .github/ldes_translation_workflow
       - name: install poetry
         run: |
           curl -sSL https://install.python-poetry.org | python3 -
           echo "PATH=$HOME/.local/bin:$PATH" >> $GITHUB_ENV
       - name: Install dependencies
         run: poetry install --no-root
-        working-directory: src
+        working-directory: .github/ldes_translation_workflow
       - name: run check for changed files
         run: poetry run python ymls_to_ldes_ttl.py
-        working-directory: src
+        working-directory: .github/ldes_translation_workflow
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

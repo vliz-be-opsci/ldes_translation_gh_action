@@ -1,0 +1,37 @@
+# on push just run the setupscript
+name: Push
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Check if config file exists and if ldes folder is already made
+        run: |
+          if [ ! -f config.yml ]; then
+            echo "Config file not found. Exiting."
+            exit 1
+          fi
+          if [ -d ldes ]; then
+            echo "LDES folder already exists. Exiting."
+            exit 1
+          fi
+          echo "Config file found and LDES folder does not exist. Continuing."
+          - name: Install dependencies
+          run: npm install
+          working-directory: .github/ldes_translation_workflow
+      - name: install poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+          echo "PATH=$HOME/.local/bin:$PATH" >> $GITHUB_ENV
+      - name: Install dependencies
+        run: poetry install --no-root
+        working-directory: .github/ldes_translation_workflow
+      - name: run setup script
+        run: sh setup.sh
+        working-directory: .github/ldes_translation_workflow
