@@ -35,3 +35,11 @@ jobs:
       - name: run setup script
         run: sh setup.sh
         working-directory: .github/ldes_translation_workflow
+      - name: push changes
+        run: |
+          git config --global user.email "
+          git config --global user.name "GitHub Actions"
+          git add .
+          git commit -m "setup script run"
+          git push
+        working-directory: .github/ldes_translation_workflow
