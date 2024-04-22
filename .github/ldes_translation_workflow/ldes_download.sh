@@ -22,6 +22,8 @@ python -c "import json; [print(json.dumps(source)) for source in json.loads('$co
         mkdir "../../$source_name"
     fi
 
+    # check if npm i @treecg/actor-init-ldes-client is installed
+    npm i @treecg/actor-init-ldes-client
     # CLI command to harvest data from a LDES
     actor-init-ldes-client --pollingInterval 5000 --mimeType text/turtle --emitMemberOnce true --disablePolling true --requestsPerMinute 40 "$source_url" > "../../$source_name/output_ldes_stream.ttl"
 
